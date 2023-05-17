@@ -80,3 +80,8 @@ fieldset {
 	margin-top: 20px;
 	height: 30px;
 }
+
+body {
+	background-image: url('fond.png');
+	background-size: cover;
+}
