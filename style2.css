@@ -1,0 +1,55 @@
+.background{
+    background-image: url('./images/background.png');
+
+}
+.color1{
+    color: blueviolet;
+}
+
+.flex-center, .flex-center-col {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-center-col {
+	flex-direction: column;
+}
+.justify-flex-start {
+	justify-content: flex-start;
+}
+.align-flex-start {
+	align-items: flex-start;
+}
+.justify-flex-end {
+	justify-content: flex-end;
+}
+.align-flex-end {
+	align-items: flex-end;
+}
+.text-align {
+	text-align: center;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.justify-space-around {
+    justify-content: space-around;
+}
+.logo{
+width: 230px;
+height: 93px;
+}
+.margin {
+    margin-top: 230px;
+}
+#push {
+	font: bold;
+}
+.hidden{
+	display: none;
+}
+
+#rules{
+	font: bold;
+	transform: scaleY(100px);
+}
