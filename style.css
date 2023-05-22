@@ -64,10 +64,13 @@ fieldset {
 }
 
 .envoyer:hover {
-
 	cursor: pointer;
-	opacity: 0.5;
+}
 
+.envoyer:active {
+	position:relative;
+	transform: translate(5px,5px);
+	box-shadow: none;
 }
 
 .prenom {
