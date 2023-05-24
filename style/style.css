@@ -41,6 +41,7 @@ header {
     width: 100%;
     height: 100vh;
 }
+
 .cases {
     position: absolute;
     border-radius: 50%;
@@ -92,114 +93,114 @@ header {
 }
 
 .case0 {
-    bottom: 40px;
-    left: 60px;
+    bottom: 90px;
+    left: 220px;
 }
 .case1 {
-    bottom: 130px;
-    left: 140px;
+    bottom: 180px;
+    left: 350px;
 }
 .case2 {
-    bottom: 240px;
-    left: 210px;
+    bottom: 290px;
+    left: 440px;
 }
 .case3 {
-    bottom: 350px;
-    left: 170px;
+    bottom: 400px;
+    left: 390px;
 }
 .case4 {
-    bottom: 450px;
-    left: 100px;
+    bottom: 500px;
+    left: 310px;
 }
 .case5 {
-    bottom: 560px;
-    left: 150px;
-}
-.case6 {
-    bottom: 630px;
-    left: 250px;
-}
-.case7 {
-    bottom: 560px;
-    left: 350px;
-}
-.case8 {
-    bottom: 450px;
-    left: 400px;
-}
-.case9 {
-    bottom: 330px;
-    left: 400px;
-}
-.case10 {
-    bottom: 210px;
-    left: 360px;
-}
-.case11 {
-    bottom: 90px;
+    bottom: 610px;
     left: 380px;
 }
+.case6 {
+    bottom: 680px;
+    left: 510px;
+}
+.case7 {
+    bottom: 610px;
+    left: 630px;
+}
+.case8 {
+    bottom: 500px;
+    left: 700px;
+}
+.case9 {
+    bottom: 380px;
+    left: 700px;
+}
+.case10 {
+    bottom: 260px;
+    left: 660px;
+}
+.case11 {
+    bottom: 140px;
+    left: 680px;
+}
 .case12 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 90px;
+    left: 830px;
 }
 .case13 {
-    bottom: 560px;
-    left: 350px;
+    bottom: 140px;
+    left: 960px;
 }
 .case14 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 260px;
+    left: 990px;
 }
 .case15 {
-    bottom: 560px;
-    left: 350px;
+    bottom: 380px;
+    left: 940px;
 }
 .case16 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 500px;
+    left: 940px;
 }
 .case17 {
-    bottom: 560px;
-    left: 350px;
+    bottom: 620px;
+    left: 960px;
 }
 .case18 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 720px;
+    left: 1090px;
 }
 .case19 {
-    bottom: 560px;
-    left: 350px;
+    bottom: 650px;
+    left: 1250px;
 }
 .case20 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 520px;
+    left: 1250px;
 }
 .case21 {
-    bottom: 560px;
-    left: 350px;
+    bottom: 390px;
+    left: 1230px;
 }
 .case22 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 260px;
+    left: 1230px;
 }
 .case23 {
-    bottom: 560px;
-    left: 350px;
+    bottom: 140px;
+    left: 1320px;
 }
 .case24 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 100px;
+    left: 1470px;
 }
 .case25 {
-    bottom: 560px;
-    left: 350px;
+    bottom: 180px;
+    left: 1590px;
 }
 .case26 {
-    bottom: 450px;
-    left: 400px;
+    bottom: 320px;
+    left: 1550px;
 }
 .case27 {
     bottom: 450px;
-    left: 400px;
+    left: 1490px;
 }
