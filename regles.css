@@ -2,6 +2,8 @@
   animation-duration: 20s;
   animation-name: glissement;
   animation-iteration-count: infinite;
+  align-items: center;
+  justify-content: center;
 }
 @keyframes glissement {
   0% {
@@ -36,4 +38,15 @@
 header,
 body {
   color: rgb(7, 7, 105);
+}
+.materiel_but-du-jeu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.materiel,
+.but-du-jeu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
