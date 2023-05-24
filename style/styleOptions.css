@@ -1,0 +1,90 @@
+* {
+	font-family: Calibri;
+}
+
+.pion {
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.red {
+
+	background: #DB0F10;
+}
+
+.orange {
+
+	background: #FDB620;
+}
+
+.blue {
+
+	background: #0373BB;
+}
+
+form {
+
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 500px;
+	margin: auto;
+	font-size: 20px;
+}
+
+fieldset {
+
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	width: 100%;
+
+}
+
+.choix {
+
+	display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+}
+
+.envoyer {
+
+	width: 200px;
+	height: 50px;
+	background: #DB0F10;
+	margin-top: 50px;
+	font-size: 20px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px 0;
+}
+
+.envoyer:hover {
+	cursor: pointer;
+}
+
+.envoyer:active {
+	position:relative;
+	transform: translate(5px,5px);
+	box-shadow: none;
+}
+
+.prenom {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.prenom input {
+	margin-top: 20px;
+	height: 30px;
+}
+
+body {
+	background-image: url('/img/background.png');
+	background-size: cover;
+}
