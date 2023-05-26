@@ -33,7 +33,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-family: "Calibri", serif;
+  height: 468.5px;
+  font-size: 100px;
 }
 header,
 body {
@@ -60,4 +63,7 @@ body {
   justify-content: center;
   text-align: center;
   margin: 100px;
+}
+.container {
+  font-size: 20px;
 }
