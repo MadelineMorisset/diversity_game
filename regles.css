@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
 }
+.title_containers {
+}
 @keyframes glissement {
   0% {
     transform: translateX(100%);
