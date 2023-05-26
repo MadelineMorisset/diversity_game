@@ -1,0 +1,24 @@
+.pion  {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.2em;
+    height: 5.2em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 4px 4px 4px black;
+}
+
+.emote {width: 3.8em; height: 3.8em;}
+
+.pion1 {background-color: #53A29A;}
+
+.pion2 {background-color: #1FCB27;}
+
+.pion3 {background-color: #35E61D;}
+
+.pion4 {background-color: #23CF9B;}
