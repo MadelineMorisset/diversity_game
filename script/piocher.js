@@ -9,12 +9,14 @@ function getRandomInt(min, max) {
 }
 
 
-
+let numeroQuestion;
 
 function piocher(questionPoint){
   let nbrQuestions = questionPoint.length;
-  return getRandomInt(1,nbrQuestions+1);
+  numeroQuestion = getRandomInt(1,nbrQuestions+1);
+  return numeroQuestion;
 }
+
 
 
 console.log(piocher(questions1point));
