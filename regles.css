@@ -6,6 +6,7 @@
   justify-content: center;
 }
 .title_containers {
+  overflow-x: hidden;
 }
 @keyframes glissement {
   0% {
