@@ -9,7 +9,7 @@ let plateau = [
     },
     {
         numeroCase: 1,
-        positionX: 35,
+        positionX: 350,
         positionY: 180,
         bonus: false,
         malus: false,
@@ -18,7 +18,7 @@ let plateau = [
     {
         numeroCase: 2,
         positionX: 440,
-        positionY: 180,
+        positionY: 290,
         bonus: false,
         malus: false,
         occupe: undefined
@@ -224,3 +224,9 @@ let plateau = [
         occupe: undefined
     }
 ]
+
+let positionCases = document.getElementsByClassName("cases");
+for (let i in positionCases){
+    positionCases[i].style.bottom = plateau[i].positionY + 'px';
+    positionCases[i].style.left = plateau[i].positionX + 'px';
+}
