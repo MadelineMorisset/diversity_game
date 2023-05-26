@@ -299,10 +299,11 @@
 
 
         let reponseLibre;
-        function traiterReponseLibre() {
-            
-            if (reponseLibre == reponsesPossibles) {
-                console.log('victoire');
+        function traiterReponseLibre(numeroQuestion) {
+            for (let question of numeroQuestion) {
+                if (reponseLibre == question[reponsesPossibles]) {
+                    console.log('victoire');
+                }
             }
         }
 
