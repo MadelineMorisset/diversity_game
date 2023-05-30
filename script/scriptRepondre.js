@@ -1,14 +1,22 @@
-<script>
     
     // Répondre à une question
 
-    function repondreQuestionQCM(questionspoints[numeroQuestion]) {  // revoir les paramètres
+    function repondreQuestionQCM(questionPosee) {
         button.addEventListener('click', traiterReponseQCM);
     }
 
-    function repondreQuestionLibre(questionspoints[numeroQuestion]) {  // revoir les paramètres
+    function repondreQuestionLibre(questionPosee) {
         button.addEventListener('click', traiterReponseLibre);
     }
+
+
+
+    // Retirer la question du tableau
+
+    function retirerQuestionDuTableau(questionPosee) {
+        questionPosee.splice(questionPosee,1)  
+    } 
+
 
 
     // Traiter la réponse
@@ -18,25 +26,20 @@
         if (reponseQCM == questionPosee.bonneReponse){
             console.log('victoire');
         }
-        else { console.log('defaite');}
+        else { 
+            console.log('defaite');
+        }
+        retirerQuestionDuTableau(questionPosee);
     }
+
 
     let reponseLibre;
     function traiterReponseLibre(questionPosee,reponseLibre) {
-        for (let question of questionsPoints) {
-            if (reponseLibre == question[reponsesPossibles]) {  // chercher une fonction pour chercher si une valeur est dans un tableau
-                console.log('victoire');
-            }
-            else { console.log('defaite');}
+        if (reponseLibre == questionPosee.includes(reponseLibre)) {
+            console.log('victoire');
         }
+        else { 
+            console.log('defaite');
+        }
+        retirerQuestionDuTableau(questionPosee);
     }
-
-
-    // Retirer la question du tableau
-
-    document.addEventListener('click',()=>{
-        questionspoints[numeroQuestion].splice(numeroQuestion,1)  // à voir
-    });   
-
-
-</script>
