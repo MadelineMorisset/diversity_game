@@ -5,7 +5,7 @@ let plateau = [
         positionY: 90,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 1,
@@ -13,7 +13,7 @@ let plateau = [
         positionY: 180,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 2,
@@ -21,7 +21,7 @@ let plateau = [
         positionY: 290,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 3,
@@ -29,7 +29,7 @@ let plateau = [
         positionY: 400,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 4,
@@ -37,7 +37,7 @@ let plateau = [
         positionY: 500,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 5,
@@ -45,7 +45,7 @@ let plateau = [
         positionY: 610,
         bonus: false,
         malus: true,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 6,
@@ -53,7 +53,7 @@ let plateau = [
         positionY: 680,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 7,
@@ -61,7 +61,7 @@ let plateau = [
         positionY: 610,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 8,
@@ -69,7 +69,7 @@ let plateau = [
         positionY: 500,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 9,
@@ -77,7 +77,7 @@ let plateau = [
         positionY: 380,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 10,
@@ -85,7 +85,7 @@ let plateau = [
         positionY: 260,
         bonus: true,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 11,
@@ -93,7 +93,7 @@ let plateau = [
         positionY: 140,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 12,
@@ -101,7 +101,7 @@ let plateau = [
         positionY: 90,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 13,
@@ -109,7 +109,7 @@ let plateau = [
         positionY: 140,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 14,
@@ -117,7 +117,7 @@ let plateau = [
         positionY: 260,
         bonus: false,
         malus: true,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 15,
@@ -125,7 +125,7 @@ let plateau = [
         positionY: 380,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 16,
@@ -133,7 +133,7 @@ let plateau = [
         positionY: 500,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 17,
@@ -141,7 +141,7 @@ let plateau = [
         positionY: 620,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 18,
@@ -149,7 +149,7 @@ let plateau = [
         positionY: 720,
         bonus: true,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 19,
@@ -157,7 +157,7 @@ let plateau = [
         positionY: 650,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 20,
@@ -165,7 +165,7 @@ let plateau = [
         positionY: 520,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 21,
@@ -173,7 +173,7 @@ let plateau = [
         positionY: 390,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 22,
@@ -181,7 +181,7 @@ let plateau = [
         positionY: 260,
         bonus: false,
         malus: true,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 23,
@@ -189,7 +189,7 @@ let plateau = [
         positionY: 140,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 24,
@@ -197,7 +197,7 @@ let plateau = [
         positionY: 100,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 25,
@@ -205,7 +205,7 @@ let plateau = [
         positionY: 180,
         bonus: true,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 26,
@@ -213,7 +213,7 @@ let plateau = [
         positionY: 320,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     },
     {
         numeroCase: 27,
@@ -221,7 +221,7 @@ let plateau = [
         positionY: 450,
         bonus: false,
         malus: false,
-        occupe: undefined
+        occupe: false
     }
 ]
 
