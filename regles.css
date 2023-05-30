@@ -31,6 +31,7 @@
   animation: back 6s infinite;
   width: 100%;
   height: 50vh;
+  overflow: hidden;
 }
 .titre_règles {
   display: flex;
