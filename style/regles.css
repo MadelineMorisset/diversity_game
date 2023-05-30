@@ -2,6 +2,11 @@
   animation-duration: 20s;
   animation-name: glissement;
   animation-iteration-count: infinite;
+  align-items: center;
+  justify-content: center;
+}
+.title_containers {
+  overflow-x: hidden;
 }
 @keyframes glissement {
   0% {
@@ -31,9 +36,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-family: "Calibri", serif;
+  height: 468.5px;
+  font-size: 100px;
 }
 header,
 body {
-  color: blue;
+  color: rgb(7, 7, 105);
+}
+.materiel_but-du-jeu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.materiel,
+.but-du-jeu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lesCartes,
+.debuterPartie,
+.pourJouer,
+.pourFinir,
+.partieRapide,
+.finPage {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 100px;
+}
+.container {
+  font-size: 20px;
 }
