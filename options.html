@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Options de la partie</title>
 	<link rel="stylesheet" type="text/css" href="style/styleOptions.css">
+	<link rel="stylesheet" href="style/stylePions.css">
 </head>
 <body>
 	<form method="" action="">
@@ -15,23 +16,36 @@
 		</div>
 
 		<fieldset>
-		    <legend>Veuillez choisir votre pion :</legend>
+			<legend>Veuillez choisir votre pion :</legend>
 
-		    <div class="choix">
-		      <input type="radio" id="huey" name="pion" value="one"
-		             checked>
-		      <label for="huey"><div class="pion red"></div></label>
-		    </div>
+			<div class="choix">
+				<input type="radio" id="huey" name="pion" value="one"
+				checked>
+				<label for="huey"><div class="pion pion1">
+					<img src="img/pionCoeur.png" alt="Pion Emote Coeur" class="emote">
+				</div></label>
+			</div>
 
-		    <div class="choix">
-		      <input type="radio" id="dewey" name="pion" value="two">
-		      <label for="dewey"><div class="pion orange"></div></label>
-		    </div>
+			<div class="choix">
+				<input type="radio" id="dewey" name="pion" value="two">
+				<label for="dewey"><div class="pion pion3">
+					<img src="img/pionFete.png" alt="Pion Emote Fete" class="emote">
+				</div></label>
+			</div>
 
-		    <div class="choix">
-		      <input type="radio" id="louie" name="pion" value="three">
-		      <label for="louie"><div class="pion blue"></div></label>
-		    </div>
+			<div class="choix">
+				<input type="radio" id="louie" name="pion" value="three">
+				<label for="louie"> <div class="pion pion4">
+					<img src="img/pionMinion.png" alt="Pion Emote Minion" class="emote">
+				</div></label>
+			</div>
+
+			<div class="choix">
+				<input type="radio" id="anemone" name="pion" value="four">
+				<label for="anemone">  <div class="pion pion2">
+					<img src="img/pionSourire.png" alt="Pion Emote Sourire" class="emote">
+				</div></label>
+			</div>
 		</fieldset>
 		<input type="submit" value="LANCER LA PARTIE !" class="envoyer">
 	</form>
