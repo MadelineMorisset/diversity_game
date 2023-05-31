@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styleVictoire.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <span id="h1">VICTOIRE</span>
+    </div>
+    <div id="background-video">
+      <video
+        id="myVideo"
+        width="500px"
+        height="400"
+        autoplay
+        loop
+        muted
+        playsinline
+      >
+        <source
+          src="video/Sans Titre ‑ Made with FlexClip.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <div class="container">
+      <div class="groupButton">
+        <button class="button1">Continuer la partie</button>
+        <button class="button2" id="btn">Nouvelle partie</button>
+        <button class="button3">Quitter le jeu</button>
+      </div>
+      <div>
+        <canvas id="confetti-canvas"></canvas>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script/scriptVictoire.js"></script>
+  </body>
+</html>
