@@ -41,6 +41,7 @@ header {
     width: 100%;
     height: 100vh;
 }
+
 .cases {
     position: absolute;
     border-radius: 50%;
@@ -57,36 +58,36 @@ header {
 }
 
 .caseDepart {
-    font-size: 1.5em;
-    width: 4.25em;
-    height: 4.25em;
+    font-size: 1.4em;
+    width: 4em;
+    height: 4em;
     background: linear-gradient(45deg, #E53990, #F2A2CB, #F2A2CB, #E53990);
 }
 
 .caseQuestion {
     font-size: 2.5em;
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.25em;
+    height: 2.25em;
     background: linear-gradient(45deg, #FDB620, #FEDE9A, #FEDE9A, #FDB620);
 }
 
 .caseMalus {
     font-size: 2.5em;
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.25em;
+    height: 2.25em;
     background: linear-gradient(45deg, #DB0F10, #EC8687, #EC8687, #DB0F10);
 }
 
 .caseBonus {
     font-size: 2.5em;
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.25em;
+    height: 2.25em;
     background: linear-gradient(45deg, #0373BB, #79B4DB, #79B4DB, #0373BB);
 }
 
 .caseArrivee {
-    font-size: 1.5em;
-    width: 4.25em;
-    height: 4.25em;
+    font-size: 1.4em;
+    width: 4em;
+    height: 4em;
     background: linear-gradient(45deg, #24A620, #8DD08B, #8DD08B, #24A620);
 }
