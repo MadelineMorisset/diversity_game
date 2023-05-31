@@ -1,6 +1,5 @@
-function finirPartie(positionJoueur) {
-    let caseVictoire = plateau[27];
-    if (positionJoueur == caseVictoire ) {
+function finirPartie(positionJoueur) { 
+    if (positionJoueur == (plateau.length -1)) {
         ecranVictoire();
     }
 }
