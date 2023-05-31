@@ -1,26 +1,11 @@
-//si (position pion X == position case X) && (position pion Y == position case Y) 
-{
-    if (box.bonus == true) {
-        fonctionBonus();
-    }
-    
-    if (box.malus == true) {
-        fonctionMalus();
-    }
-    
-    if (box.occupe == true) {
-        fonctionChifoumi();
+function analyserCase() {
+    if (plateau[joueur.numeroCase].malus == true) {
+        caseMalus();
+    } else if (plateau[joueur.numeroCase].bonus == true) {
+        caseBonus();
+    } else if (plateau[joueur.numeroCase].occupe == true) {
+        chifoumi();
+    } else {
+        jouerTour();
     }
 }
-
-function fonctionBonus() {
-    console.log("Case bonus")
-};
-
-function fonctionMalus() {
-    console.log("Case malus")
-};
-
-function fonctionChifoumi() {
-    console.log("Chifoumi !!!!")
-};
