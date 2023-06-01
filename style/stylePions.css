@@ -11,6 +11,17 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     box-shadow: 4px 4px 4px black;
+    box-sizing: border-box;
+}
+
+.pion:hover {
+    
+    border:5px solid black;
+}
+
+.pion:focus {
+    background-color: #DB0F10;
+
 }
 
 .emote {width: 3.8em; height: 3.8em;}

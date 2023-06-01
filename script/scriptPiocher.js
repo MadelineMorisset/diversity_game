@@ -17,4 +17,4 @@ function piocher(questionPoint){
 }
 
 
-console.log(piocher(questions1point));
+
