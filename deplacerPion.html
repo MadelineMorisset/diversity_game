@@ -227,27 +227,31 @@
 ]
 let joueur =[
     {
-        nom,
-        position,
-        smiley,    
+        numeroCase: 0,
+        positionX: 220,
+        positionY: 90,    
     }
 ]
-    
 
     function definirPosition() {
-        let numeroCase;
-        let PosX = plateau[i].positionX;
-        let PosY = plateau[i].positionY;
-        let pos= {
-            PosX,
-            PosY
-        };
+        joueur.positionX = plateau[joueur.numeroCase].positionX;
+        joueur.positionY = plateau[joueur.numeroCase].positionY;
     }
-    function AvancerPion(nbrecase) {
+    function avancerPion(nbrecase) {
         if (nbrecase>0) {
-            numeroCase = numeroCase + 1;
-            nbrecase++;
+            joueur.numeroCase++;
+            nbrecase--;
+           definirPosition();
         }
         
     }
+
+    function reculerPion(nbrecase) {
+        if (nbrecase <0) {
+            joueur.numeroCase--;
+            nbrecase++;
+            definirPosition();
+        }
+    }
+    let pion =
 </script>
