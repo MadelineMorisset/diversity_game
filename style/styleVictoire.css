@@ -107,3 +107,7 @@ span {
   height: 100vh;
   pointer-events: none;
 }
+
+#ecranVictoire {
+  display: none;
+}
