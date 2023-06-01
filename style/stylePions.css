@@ -19,17 +19,17 @@
     border:5px solid black;
 }
 
-.pion:focus {
+#pion1:focus,#pion2:focus,#pion3:focus,#pion4:focus {
     background-color: #DB0F10;
 
 }
 
 .emote {width: 3.8em; height: 3.8em;}
 
-.pion1 {background-color: #53A29A;}
+#pion1 {background-color: #53A29A;}
 
-.pion2 {background-color: #1FCB27;}
+#pion2 {background-color: #1FCB27;}
 
-.pion3 {background-color: #35E61D;}
+#pion3 {background-color: #35E61D;}
 
-.pion4 {background-color: #23CF9B;}
+#pion4 {background-color: #23CF9B;}
